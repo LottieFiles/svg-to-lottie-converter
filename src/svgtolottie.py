@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI, File, status
-from core.svg import convert_svg_to_lottie, convert_svg_to_lottie_withanimation
+from core.svg import convert_svg_to_lottie
 from core.svg import convert_svg_to_lottie_def
 import shutil
 import json
