@@ -1,4 +1,6 @@
-# Refer to https://gitlab.com/mattbas/python-lottie
+# Origianl parser and related helper functions code from https://gitlab.com/mattbas/python-lottie
+# SVG parse using https://gitlab.com/mattbas/python-lottie/. 
+# Change to original code : Generating Lottie using pydantic based object model.
 
 import enum
 from xml.etree import ElementTree

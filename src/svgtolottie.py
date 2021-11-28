@@ -1,3 +1,7 @@
+# Origianl parser and related helper functions code from https://gitlab.com/mattbas/python-lottie
+# SVG parse using https://gitlab.com/mattbas/python-lottie/. 
+# Change to original code : Generating Lottie using pydantic based object model.
+
 import uvicorn
 from fastapi import FastAPI, File, status
 from core.svg import convert_svg_to_lottie
